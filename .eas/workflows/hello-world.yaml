@@ -1,0 +1,14 @@
+name: Hello World
+
+on:
+  push:
+    branches: ["*"]
+
+jobs:
+  HelloWorld:
+    # runs-on: ubuntu-latest
+    steps:
+      # - uses: actions/checkout@v3
+      # - name: Hello World
+      - run: echo "Hello World"
+      - run: echo "code with Tanvir"

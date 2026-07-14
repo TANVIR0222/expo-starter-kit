@@ -1,0 +1,38 @@
+# Dependencies
+node_modules
+
+# Expo / Build output
+.expo
+dist
+web-build
+
+# Lock files
+bun.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Environment & secrets
+.env*
+
+# Markdown files
+*.md
+
+# Image assets
+*.jpg
+*.jpeg
+*.png
+*.svg
+*.gif
+*.webp
+
+# Config files (no need to format)
+tsconfig.json
+.gitignore
+.prettierignore
+
+# Native generated folders
+android
+ios
+
+# Git
+.git
